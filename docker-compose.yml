@@ -1,0 +1,11 @@
+version: '3'
+services:
+   xkcd-compose:
+       image: xkcd-compose:1
+       build:
+          context: ./
+          dockerfile: Dockerfile
+       volumes:
+          - /data/xkcd-compose
+       ports:
+          - "8080:8080"

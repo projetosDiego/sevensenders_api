@@ -12,8 +12,6 @@ public class XkcdapiApplication {
 
 	public static void main(String[] args) throws IOException, IllegalArgumentException, FeedException {
 		SpringApplication.run(XkcdapiApplication.class, args);
-		
-
 	}
 
 }

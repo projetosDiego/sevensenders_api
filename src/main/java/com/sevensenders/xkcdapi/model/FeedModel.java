@@ -1,11 +1,13 @@
 package com.sevensenders.xkcdapi.model;
 
+import java.util.Date;
+
 public class FeedModel {
 	
 	private String pictureUrl;
 	private String title;
 	private String webUrl;
-	private String publishingDate;
+	private Date   publishingDate;
 	
 	public String getPictureUrl() {
 		return pictureUrl;
@@ -25,10 +27,10 @@ public class FeedModel {
 	public void setWebUrl(String webUrl) {
 		this.webUrl = webUrl;
 	}
-	public String getPublishingDate() {
+	public Date getPublishingDate() {
 		return publishingDate;
 	}
-	public void setPublishingDate(String publishingDate) {
+	public void setPublishingDate(Date publishingDate) {
 		this.publishingDate = publishingDate;
 	}
 }
